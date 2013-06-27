@@ -29,7 +29,7 @@ mkYesod "Gravity" [parseRoutes|
 |]
 
 boxColor   = "#000"::String
-bodyColor  = "#aaa"::String  -- it's gray now.
+bodyColor  = "#822"::String  -- it's red now.
 boxSizeX    = 600::Int
 boxSizeY    = 600::Int
 framesPerS = 16::Int
