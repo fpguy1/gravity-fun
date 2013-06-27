@@ -1,0 +1,20 @@
+extensions: {}
+cabal-file: project.cabal
+version: 1
+module-template: ! 'module MODULE_NAME where
+
+'
+modules:
+  World:
+    filename: src/World.hs
+  Physics:
+    filename: src/Physics.hs
+  Main(src/Main.hs):
+    target-type: console
+    filename: src/Main.hs
+  Json:
+    filename: src/Json.hs
+  Test.Main:
+    filename: src/Test/Main.hs
+  Simulation:
+    filename: src/Simulation.hs
