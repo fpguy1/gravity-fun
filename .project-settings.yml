@@ -10,11 +10,12 @@ modules:
   Physics:
     filename: src/Physics.hs
   Main(src/Main.hs):
-    target-type: console
+    target-type: web
     filename: src/Main.hs
   Json:
     filename: src/Json.hs
   Test.Main:
+    target-type: console
     filename: src/Test/Main.hs
   Simulation:
     filename: src/Simulation.hs
