@@ -29,10 +29,11 @@ mkYesod "Gravity" [parseRoutes|
 |]
 
 boxColor   = "#000"::String
-bodyColor  = "#555"::String  -- it's gray now.
-boxSizeX    = 600::Int
+bodyColor  = "#300"::String  -- it's red now.
+boxSizeX    = 600::Int 
 boxSizeY    = 600::Int
 framesPerS = 16::Int
+
 
 getHomeR = defaultLayout $ do
   setTitle "Gravity"

@@ -11,6 +11,7 @@ moveParticle :: Float -> Particle -> Particle
 moveParticle dt (Particle m (Pos x y) (Vel vx vy)) =
   Particle m (Pos (x + dt * vx) (y + dt * vy)) (Vel vx vy)
     
+    
 -- Accelerate a particle in dependence on the gravitational force 
 -- exerted by all other particles for
 -- the given number of (simulated) seconds.
